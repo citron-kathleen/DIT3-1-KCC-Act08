@@ -4,6 +4,7 @@ Project Overview
 - This Android application displays the user's live GPS location on a map using OpenStreetMap and device location services. Built with Kotlin and XML Layouts (standard View System). No API Key Required! No Credit Card Needed!
 
 Features Implemented
+
 ✅ Location Permission Request and Handling - Properly requests and handles runtime location permissions (Precise/Approximate).
 
 ✅ Map Displayed on Screen - OpenStreetMap integration using osmdroid.
