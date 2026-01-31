@@ -5,9 +5,13 @@ Project Overview
 
 Features Implemented
 ✅ Location Permission Request and Handling - Properly requests and handles runtime location permissions (Precise/Approximate).
+
 ✅ Map Displayed on Screen - OpenStreetMap integration using osmdroid.
+
 ✅ Marker Showing Current Location - Custom marker displaying real-time GPS coordinates.
+
 ✅ Location Updates - Real-time tracking using Fused Location Provider.
+
 ✅ Basic UI (Single Screen) - Clean interface with a location information card.
 
 Technical Implementation
@@ -47,14 +51,3 @@ Setup Instructions
 Testing
 - On Physical Device: Install, grant permissions when prompted, and move around to see the marker update.
 - On Emulator: Use Extended Controls → Location to manually set coordinates or playback a route.
-
-Project Structure
-app/src/main/java/com/example/gpstracker/
-├── MainActivity.kt           # Main activity with location and permission logic
-└── (Layouts)
-    └── activity_main.xml     # UI with MapView and Info Card
-
-
-Location not updating: Ensure GPS is ON and permissions are granted.
-
-Build errors: Run Clean Project and Rebuild Project.
